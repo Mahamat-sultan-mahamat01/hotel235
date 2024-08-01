@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea{
+            width:120px;
+            height:120px;
+        }
+    </style>
+</head>
+<body>
+   <form method="post" action="traulenbt">
+
+    <p> 
+        </label for ="passe">saisir votre passe:  </label>
+    <input type="text" name="passe" id="passe"  />
+</p>
+<p>
+    <label for ="koume">mot de passe:</label>
+    <input type="password" name="koume"id="koume"/>
+    </p>
+    <p>
+    <label for="gere">votre nom:</label>
+    <input type="checkbox" name="toe"id="gere"/>
+    <br/>
+    <br/>
+    <!--encore-->
+    <label for="hese">prenom</label>
+    <input type="text" name="hese" id="hese"/>
+</p>
+<p>
+<label >votre email</label>
+<input type="email" />
+<br/>
+<br/>
+<label >votre site</label>
+<input type="url"/>
+<br/>
+<br/>
+<label>votre tel</label>
+<input type="tel"/>
+<br/>
+<br/>
+<label for="textes">commentaires ici</label>
+<textarea type="text" name="textes"id="textes"></textarea>
+<br/>
+<br/>
+<p>choisissez un </p>
+<input type="checkbox"id="homme"name="homme"/>
+<label for="homme">homme <br/></label>
+<input type="checkbox" id="femme" name="femme"/>
+<label for="femme">femme</label>
+
+</p>
+<p>age as tu</p>
+<p>
+    <input type="radio"id="mineur" name="mineur" value="mineur"/>
+    <label for="mineur">-18</label>
+    <br/>
+
+    <input type="radio" id="mageur" name="mineur" value="mageur"/>
+    <label for="mageur">+18</label>
+</p>
+
+<label for="pays">selection un pays</label>
+<select name="pay" id="pays">
+    <optgroup label value="afrique">
+        <option value="tchad">tchad</option>
+        <option value ="mali">mali</option>
+        <option value="niger">niger</option>
+    </optgroup>
+    <optgroup label value ="tchad">
+         <option value="kanem">kanem</option>
+        <option value="borkou">borkou</option>
+        <option value="tibesti">tibesti</option>
+    </optgroup>
+
+</select>
+
+     </form>
+</body>
+</html>
